@@ -1,6 +1,8 @@
 {
   "Authors": [ "Evans AC", "Fox PT", "Lancaster J", "Zilles K", "Woods R", "Paus T", "Simpson G", "Pike B", "Holmes C", "Collins DL", "Thompson P", "MacDonald D", "Iacoboni M", "Schormann T", "Amunts K", "Palomero-Gallagher N", "Geyer S", "Parsons L", "Narr K", "Kabani N", "LeGoualher G", "Boomsma D", "Cannon T", "Kawashima R", "Mazoyer B"],
+  "Acknowledgements": "Curated and added to TemplateFlow by Ciric R, Markiewicz CJ, and Esteban O",
   "BIDSVersion": "1.1.0",
+  "HowToAcknowledge": "The first publication indexed by the ReferencesAndLinks field should be referenced when using this atlas",
   "Identifier": "MNI152Lin",
   "License": "See LICENSE file",
   "Name": "Linear ICBM Average Brain (ICBM152) Stereotaxic Registration Model",
