@@ -1,5 +1,4 @@
 {
-  "Acknowledgements": "Curated and added to TemplateFlow by Ciric R, Markiewicz CJ, and Esteban O",
   "Authors": [
     "Evans AC",
     "Fox PT",
@@ -28,7 +27,11 @@
     "Mazoyer B"
   ],
   "BIDSVersion": "1.1.0",
-  "HowToAcknowledge": "Reference the following entries from the ReferencesAndLinks field: {1}",
+  "Curators": [
+    "iric R",
+    "Markiewicz CJ",
+    "Esteban O"
+  ],
   "Identifier": "MNI152Lin",
   "License": "See LICENSE file",
   "Name": "Linear ICBM Average Brain (ICBM152) Stereotaxic Registration Model",
