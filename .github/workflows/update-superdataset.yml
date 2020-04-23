@@ -33,12 +33,19 @@ jobs:
       run: |
         git config --global user.name "NiPreps Bot"
         git config --global user.email "nipreps@gmail.com"
+    - uses: actions/cache@v1
+      with:
+        path: templateflow/
+        key: tf-superdataset-v1
+        restore-keys: |
+          tf-superdataset-
     - uses: webfactory/ssh-agent@v0.2.0
       with:
         ssh-private-key: ${{ secrets.NIPREPS_BOT }}
     - name: Install & update super-dataset
       run: |
-        datalad install -r git@github.com:templateflow/templateflow.git
+        datalad install git@github.com:templateflow/templateflow.git
         cd templateflow/
-        datalad update -r --merge .
+        datalad install ${GITHUB_REPOSITORY##*/}
+        datalad update --merge ${GITHUB_REPOSITORY##*/}
         datalad publish
