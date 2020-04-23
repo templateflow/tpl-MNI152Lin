@@ -41,6 +41,6 @@ jobs:
         datalad install git@github.com:templateflow/templateflow.git
         cd templateflow/
         datalad install ${GITHUB_REPOSITORY##*/}
-        datalad update --merge ${GITHUB_REPOSITORY##*/}
+        datalad update -r --merge .
         datalad save -m "auto(${GITHUB_REPOSITORY##*/}): content update"
         datalad publish
