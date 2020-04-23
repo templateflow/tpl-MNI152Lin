@@ -33,11 +33,10 @@ jobs:
       run: |
         git config --global user.name "NiPreps Bot"
         git config --global user.email "nipreps@gmail.com"
-
-    - name: Install & update super-dataset
-      uses: webfactory/ssh-agent@v0.2.0
+    - uses: webfactory/ssh-agent@v0.2.0
       with:
         ssh-private-key: ${{ secrets.NIPREPS_BOT }}
+    - name: Install & update super-dataset
       run: |
         datalad install -r git@github.com:templateflow/templateflow.git
         cd templateflow/
