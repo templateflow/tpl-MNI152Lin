@@ -33,12 +33,6 @@ jobs:
       run: |
         git config --global user.name "NiPreps Bot"
         git config --global user.email "nipreps@gmail.com"
-    - uses: actions/cache@v1
-      with:
-        path: templateflow/
-        key: tf-superdataset-v1
-        restore-keys: |
-          tf-superdataset-
     - uses: webfactory/ssh-agent@v0.2.0
       with:
         ssh-private-key: ${{ secrets.NIPREPS_BOT }}
