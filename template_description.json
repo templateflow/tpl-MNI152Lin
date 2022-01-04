@@ -41,6 +41,7 @@
     "https://doi.org/10.1136/jamia.2001.0080401",
     "http://nist.mni.mcgill.ca/?p=798"
   ],
+  "Species": "Homo sapiens",
   "TemplateFlowVersion": "1.0.0",
   "res": {
     "01": {
