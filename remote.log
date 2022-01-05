@@ -1,1 +1,2 @@
+8b220e24-2a59-456e-8e02-8e83b675525e autoenable=true bucket=templateflow datacenter=US encryption=none exporttree=yes fileprefix=tpl-OASIS30ANTs/ host=s3.amazonaws.com name=s3 port=80 public=yes publicurl=https://templateflow.s3.amazonaws.com/ storageclass=STANDARD type=S3 versioning=yes timestamp=1641385027.918578s
 d0df914e-736a-483e-8132-b22948593264 bucket=templateflow datacenter=US encryption=none exporttree=yes fileprefix=tpl-OASIS30ANTs/ host=s3.amazonaws.com name=public-s3 port=80 public=yes storageclass=STANDARD type=S3 timestamp=1641381076.308032s
