@@ -1,3 +1,4 @@
+1f4389ba-38f1-469b-855e-3f4245f102df autoenable=true location=https://gin.g-node.org/templateflow/tpl-MNI152Lin name=gin-src type=git timestamp=1641507942.57398s
 200a18a6-53f7-412a-ab3e-8cbda4ea0743 bucket=templateflow datacenter=US encryption=none exporttree=yes host=s3.amazonaws.com name=public-s3 port=80 public=yes storageclass=STANDARD type=S3 timestamp=1551480316.527855421s
 219b816d-3f56-431a-8870-6da0d4d2e989 chunk=500mb encryption=none name=box.com type=webdav url=https://dav.box.com/dav/TemplateFlow/tpl-MNI152Lin timestamp=1548210293.129519507s
 60b4188c-8fa0-48e0-a168-ff736658bdf4 bucket=templateflow datacenter=US encryption=none exporttree=yes fileprefix=tpl-MNI152Lin/ host=s3.amazonaws.com name=public-s3 port=80 public=yes storageclass=STANDARD type=S3 timestamp=1641381079.87644s
