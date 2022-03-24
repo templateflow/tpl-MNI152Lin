@@ -11,4 +11,6 @@ jobs:
       - name: "Update TemplateFlow's superdataset"
         uses: templateflow/actions-template@main
         env:
-          SECRET_KEY: ${{ secrets.NIPREPS_BOT }}
+          SECRET_KEY: ${{ secrets.NIPREPS_BOT_SSH_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
