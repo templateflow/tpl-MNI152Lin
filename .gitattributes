@@ -2,4 +2,5 @@
 * annex.backend=MD5E
 **/.git* annex.largefiles=nothing
 **/*.nii annex.largefiles=(largerthan=0)
-** annex.largefiles=((mimeencoding=binary)and(largerthan=0))
+**/*.gii annex.largefiles=(largerthan=0)
+**/*.nii.gz annex.largefiles=(largerthan=0)
